@@ -84,5 +84,5 @@ reward = (sentiment_score + helpfulness_score) / 2.0 + keyword_bonus
 ## Author
 
 **Vinay Teja Pathakamuri**  
-Purdue University Northwest  
+
 
