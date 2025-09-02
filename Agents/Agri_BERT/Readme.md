@@ -3,13 +3,13 @@
 
 ## Project Overview
 
-This project implements a reward-guided text generation system using GPT-2, optimized for agriculture-related prompts. The training loop is designed to simulate reinforcement learning using custom reward signals from multiple transformer models. The goal is to generate helpful, relevant responses to agricultural queries by guiding the language model based on sentiment and helpfulness scores.
+This project implements a reward-guided text generation system using GPT-2, optimized for agriculture-related prompts. The training loop is designed to simulate reinforcement learning using custom reward signals from multiple transformer models. The goal is to generate helpful, relevant responses to agricultural queries by guiding the language model based on sentiment and helpfulness scores. 
 
 ---
 
 ## Technical Summary
 
-### Models and Tools
+### Models and Tools 
 - **Language Model**: GPT2LMHeadModel
 - **Reward Models**:
   - `distilbert-base-uncased-finetuned-sst-2-english` (sentiment classification)
